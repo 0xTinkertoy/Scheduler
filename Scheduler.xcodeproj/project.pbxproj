@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5B037B728F2252700851D80 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5B037B628F2252700851D80 /* main.cpp */; };
+		D5E082F326FE339E000D059D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E082F226FE339E000D059D /* main.cpp */; };
+		D5E0834126FEF0C2000D059D /* FIFOSchedulerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E0833126FEF0C1000D059D /* FIFOSchedulerTest.cpp */; };
+		D5E0834426FEF0C2000D059D /* MultilevelFeedbackQueueSchedulerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E0833626FEF0C2000D059D /* MultilevelFeedbackQueueSchedulerTest.cpp */; };
+		D5E0834726FEF0C2000D059D /* EarliestDeadlineFirstSchedulerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E0833A26FEF0C2000D059D /* EarliestDeadlineFirstSchedulerTest.cpp */; };
+		D5E0834826FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E0833D26FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.cpp */; };
+		D5E0834926FEF0C2000D059D /* RoundRobinSchedulerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E0833F26FEF0C2000D059D /* RoundRobinSchedulerTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5B037B228F2252700851D80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D5E082EE26FE339E000D059D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5B037AC28F2251D00851D80 /* libScheduler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScheduler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B037B428F2252700851D80 /* SchedulerPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SchedulerPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B037B628F2252700851D80 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D5B037BB28F2275400851D80 /* Scheduler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scheduler.cpp; sourceTree = "<group>"; };
+		D5E082F026FE339E000D059D /* SchedulerTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SchedulerTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E082F226FE339E000D059D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D5E082F826FE380F000D059D /* Traits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Traits.hpp; sourceTree = "<group>"; };
+		D5E082FA26FE689F000D059D /* Policy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Policy.hpp; sourceTree = "<group>"; };
+		D5E0830126FE6906000D059D /* FIFO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FIFO.hpp; sourceTree = "<group>"; };
+		D5E0830426FE6910000D059D /* PrioritizedSingleQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrioritizedSingleQueue.hpp; sourceTree = "<group>"; };
+		D5E0830726FE6918000D059D /* PrioritizedMultiQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrioritizedMultiQueue.hpp; sourceTree = "<group>"; };
+		D5E0830D26FE7016000D059D /* PolicyMaker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PolicyMaker.hpp; sourceTree = "<group>"; };
+		D5E0831026FE7036000D059D /* PolicyExtension.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PolicyExtension.hpp; sourceTree = "<group>"; };
+		D5E0831226FE7353000D059D /* Prioritizable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Prioritizable.hpp; sourceTree = "<group>"; };
+		D5E0831826FE7353000D059D /* Quantizable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Quantizable.hpp; sourceTree = "<group>"; };
+		D5E0831926FE7353000D059D /* QuantumSpecifier.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuantumSpecifier.hpp; sourceTree = "<group>"; };
+		D5E0831A26FE7353000D059D /* Schedulable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Schedulable.hpp; sourceTree = "<group>"; };
+		D5E0831D26FE95BF000D059D /* Scheduler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scheduler.hpp; sourceTree = "<group>"; };
+		D5E0831F26FE9A52000D059D /* TimerInterruptHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TimerInterruptHandler.hpp; sourceTree = "<group>"; };
+		D5E0832026FE9A52000D059D /* TaskBlockedHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskBlockedHandler.hpp; sourceTree = "<group>"; };
+		D5E0832226FE9A53000D059D /* TaskPriorityChangedHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskPriorityChangedHandler.hpp; sourceTree = "<group>"; };
+		D5E0832326FE9A53000D059D /* TaskCreationHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskCreationHandler.hpp; sourceTree = "<group>"; };
+		D5E0832426FE9A53000D059D /* TaskKilledHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskKilledHandler.hpp; sourceTree = "<group>"; };
+		D5E0832626FE9A53000D059D /* TaskQuantumUsedUpHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskQuantumUsedUpHandler.hpp; sourceTree = "<group>"; };
+		D5E0832726FE9A53000D059D /* TaskSelfPriorityChangedHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskSelfPriorityChangedHandler.hpp; sourceTree = "<group>"; };
+		D5E0832826FE9A53000D059D /* TaskTerminationHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskTerminationHandler.hpp; sourceTree = "<group>"; };
+		D5E0832926FE9A53000D059D /* TaskUnblockedHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskUnblockedHandler.hpp; sourceTree = "<group>"; };
+		D5E0832A26FE9A53000D059D /* TaskYieldingHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskYieldingHandler.hpp; sourceTree = "<group>"; };
+		D5E0832D26FE9E44000D059D /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+		D5E0832F26FEF0C1000D059D /* SchedulerTestDriver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SchedulerTestDriver.hpp; sourceTree = "<group>"; };
+		D5E0833026FEF0C1000D059D /* EarliestDeadlineFirstSchedulerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EarliestDeadlineFirstSchedulerTest.hpp; sourceTree = "<group>"; };
+		D5E0833126FEF0C1000D059D /* FIFOSchedulerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIFOSchedulerTest.cpp; sourceTree = "<group>"; };
+		D5E0833326FEF0C1000D059D /* MultilevelFeedbackQueueSchedulerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MultilevelFeedbackQueueSchedulerTest.hpp; sourceTree = "<group>"; };
+		D5E0833426FEF0C1000D059D /* SimpleTask.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleTask.hpp; sourceTree = "<group>"; };
+		D5E0833626FEF0C2000D059D /* MultilevelFeedbackQueueSchedulerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultilevelFeedbackQueueSchedulerTest.cpp; sourceTree = "<group>"; };
+		D5E0833726FEF0C2000D059D /* RoundRobinSchedulerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RoundRobinSchedulerTest.hpp; sourceTree = "<group>"; };
+		D5E0833A26FEF0C2000D059D /* EarliestDeadlineFirstSchedulerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EarliestDeadlineFirstSchedulerTest.cpp; sourceTree = "<group>"; };
+		D5E0833B26FEF0C2000D059D /* SchedulerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SchedulerTest.hpp; sourceTree = "<group>"; };
+		D5E0833C26FEF0C2000D059D /* SimpleRealtimeTask.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleRealtimeTask.hpp; sourceTree = "<group>"; };
+		D5E0833D26FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrioritizedRoundRobinSchedulerTest.cpp; sourceTree = "<group>"; };
+		D5E0833E26FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrioritizedRoundRobinSchedulerTest.hpp; sourceTree = "<group>"; };
+		D5E0833F26FEF0C2000D059D /* RoundRobinSchedulerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoundRobinSchedulerTest.cpp; sourceTree = "<group>"; };
+		D5E0834026FEF0C2000D059D /* FIFOSchedulerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FIFOSchedulerTest.hpp; sourceTree = "<group>"; };
+		D5E0834B26FEF158000D059D /* SampleSchedulers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SampleSchedulers.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B037AA28F2251D00851D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B037B128F2252700851D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E082ED26FE339E000D059D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5B0378028F2194100851D80 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D5E082E126FE315B000D059D /* Scheduler */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D5B0378128F2195A00851D80 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		D5B037B528F2252700851D80 /* SchedulerPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				D5B037B628F2252700851D80 /* main.cpp */,
+			);
+			path = SchedulerPlayground;
+			sourceTree = "<group>";
+		};
+		D5E082D626FE315B000D059D = {
+			isa = PBXGroup;
+			children = (
+				D5B0378128F2195A00851D80 /* Dependencies */,
+				D5B0378028F2194100851D80 /* Sources */,
+				D5E082F126FE339E000D059D /* SchedulerTests */,
+				D5B037B528F2252700851D80 /* SchedulerPlayground */,
+				D5E082E026FE315B000D059D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E082E026FE315B000D059D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E082F026FE339E000D059D /* SchedulerTests */,
+				D5B037AC28F2251D00851D80 /* libScheduler.a */,
+				D5B037B428F2252700851D80 /* SchedulerPlayground */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E082E126FE315B000D059D /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				D5E082F726FE344E000D059D /* Misc */,
+				D5E082EB26FE31FB000D059D /* EventHandler */,
+				D5E082EA26FE31E8000D059D /* Policy */,
+				D5E082E926FE318C000D059D /* Constraint */,
+				D5E0831D26FE95BF000D059D /* Scheduler.hpp */,
+				D5B037BB28F2275400851D80 /* Scheduler.cpp */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		D5E082E926FE318C000D059D /* Constraint */ = {
+			isa = PBXGroup;
+			children = (
+				D5E0831A26FE7353000D059D /* Schedulable.hpp */,
+				D5E0831226FE7353000D059D /* Prioritizable.hpp */,
+				D5E0831826FE7353000D059D /* Quantizable.hpp */,
+				D5E0831926FE7353000D059D /* QuantumSpecifier.hpp */,
+			);
+			path = Constraint;
+			sourceTree = "<group>";
+		};
+		D5E082EA26FE31E8000D059D /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				D5E082FA26FE689F000D059D /* Policy.hpp */,
+				D5E0830126FE6906000D059D /* FIFO.hpp */,
+				D5E0830426FE6910000D059D /* PrioritizedSingleQueue.hpp */,
+				D5E0830726FE6918000D059D /* PrioritizedMultiQueue.hpp */,
+				D5E0830D26FE7016000D059D /* PolicyMaker.hpp */,
+				D5E0831026FE7036000D059D /* PolicyExtension.hpp */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		D5E082EB26FE31FB000D059D /* EventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D5E0832326FE9A53000D059D /* TaskCreationHandler.hpp */,
+				D5E0832826FE9A53000D059D /* TaskTerminationHandler.hpp */,
+				D5E0832A26FE9A53000D059D /* TaskYieldingHandler.hpp */,
+				D5E0832026FE9A52000D059D /* TaskBlockedHandler.hpp */,
+				D5E0832926FE9A53000D059D /* TaskUnblockedHandler.hpp */,
+				D5E0832426FE9A53000D059D /* TaskKilledHandler.hpp */,
+				D5E0832226FE9A53000D059D /* TaskPriorityChangedHandler.hpp */,
+				D5E0832726FE9A53000D059D /* TaskSelfPriorityChangedHandler.hpp */,
+				D5E0832626FE9A53000D059D /* TaskQuantumUsedUpHandler.hpp */,
+				D5E0831F26FE9A52000D059D /* TimerInterruptHandler.hpp */,
+			);
+			path = EventHandler;
+			sourceTree = "<group>";
+		};
+		D5E082F126FE339E000D059D /* SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E0833426FEF0C1000D059D /* SimpleTask.hpp */,
+				D5E0833C26FEF0C2000D059D /* SimpleRealtimeTask.hpp */,
+				D5E0832F26FEF0C1000D059D /* SchedulerTestDriver.hpp */,
+				D5E0833B26FEF0C2000D059D /* SchedulerTest.hpp */,
+				D5E0834B26FEF158000D059D /* SampleSchedulers.hpp */,
+				D5E0833126FEF0C1000D059D /* FIFOSchedulerTest.cpp */,
+				D5E0834026FEF0C2000D059D /* FIFOSchedulerTest.hpp */,
+				D5E0833F26FEF0C2000D059D /* RoundRobinSchedulerTest.cpp */,
+				D5E0833726FEF0C2000D059D /* RoundRobinSchedulerTest.hpp */,
+				D5E0833D26FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.cpp */,
+				D5E0833E26FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.hpp */,
+				D5E0833626FEF0C2000D059D /* MultilevelFeedbackQueueSchedulerTest.cpp */,
+				D5E0833326FEF0C1000D059D /* MultilevelFeedbackQueueSchedulerTest.hpp */,
+				D5E0833A26FEF0C2000D059D /* EarliestDeadlineFirstSchedulerTest.cpp */,
+				D5E0833026FEF0C1000D059D /* EarliestDeadlineFirstSchedulerTest.hpp */,
+				D5E082F226FE339E000D059D /* main.cpp */,
+			);
+			path = SchedulerTests;
+			sourceTree = "<group>";
+		};
+		D5E082F726FE344E000D059D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D5E082F826FE380F000D059D /* Traits.hpp */,
+				D5E0832D26FE9E44000D059D /* Utils.hpp */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5B037A828F2251D00851D80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D5B037AB28F2251D00851D80 /* Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B037AF28F2251D00851D80 /* Build configuration list for PBXNativeTarget "Scheduler" */;
+			buildPhases = (
+				D5B037A828F2251D00851D80 /* Headers */,
+				D5B037A928F2251D00851D80 /* Sources */,
+				D5B037AA28F2251D00851D80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scheduler;
+			productName = Scheduler;
+			productReference = D5B037AC28F2251D00851D80 /* libScheduler.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5B037B328F2252700851D80 /* SchedulerPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B037B828F2252700851D80 /* Build configuration list for PBXNativeTarget "SchedulerPlayground" */;
+			buildPhases = (
+				D5B037B028F2252700851D80 /* Sources */,
+				D5B037B128F2252700851D80 /* Frameworks */,
+				D5B037B228F2252700851D80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchedulerPlayground;
+			productName = SchedulerPlayground;
+			productReference = D5B037B428F2252700851D80 /* SchedulerPlayground */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5E082EF26FE339E000D059D /* SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E082F426FE339E000D059D /* Build configuration list for PBXNativeTarget "SchedulerTests" */;
+			buildPhases = (
+				D5E082EC26FE339E000D059D /* Sources */,
+				D5E082ED26FE339E000D059D /* Frameworks */,
+				D5E082EE26FE339E000D059D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchedulerTests;
+			productName = SchedulerTests;
+			productReference = D5E082F026FE339E000D059D /* SchedulerTests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E082D726FE315B000D059D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D5B037AB28F2251D00851D80 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D5B037B328F2252700851D80 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D5E082EF26FE339E000D059D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D5E082DA26FE315B000D059D /* Build configuration list for PBXProject "Scheduler" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E082D626FE315B000D059D;
+			productRefGroup = D5E082E026FE315B000D059D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B037AB28F2251D00851D80 /* Scheduler */,
+				D5E082EF26FE339E000D059D /* SchedulerTests */,
+				D5B037B328F2252700851D80 /* SchedulerPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B037A928F2251D00851D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B037B028F2252700851D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B037B728F2252700851D80 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E082EC26FE339E000D059D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E082F326FE339E000D059D /* main.cpp in Sources */,
+				D5E0834926FEF0C2000D059D /* RoundRobinSchedulerTest.cpp in Sources */,
+				D5E0834426FEF0C2000D059D /* MultilevelFeedbackQueueSchedulerTest.cpp in Sources */,
+				D5E0834726FEF0C2000D059D /* EarliestDeadlineFirstSchedulerTest.cpp in Sources */,
+				D5E0834126FEF0C2000D059D /* FIFOSchedulerTest.cpp in Sources */,
+				D5E0834826FEF0C2000D059D /* PrioritizedRoundRobinSchedulerTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5B037AD28F2251D00851D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D5B037AE28F2251D00851D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5B037B928F2252700851D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5B037BA28F2252700851D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5E082E426FE315B000D059D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Sources",
+					"$(SRCROOT)/Dependencies/TinkerLibrary/TinkerLibrary",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5E082E526FE315B000D059D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Sources",
+					"$(SRCROOT)/Dependencies/TinkerLibrary/TinkerLibrary",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5E082F526FE339E000D059D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5E082F626FE339E000D059D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B037AF28F2251D00851D80 /* Build configuration list for PBXNativeTarget "Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B037AD28F2251D00851D80 /* Debug */,
+				D5B037AE28F2251D00851D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B037B828F2252700851D80 /* Build configuration list for PBXNativeTarget "SchedulerPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B037B928F2252700851D80 /* Debug */,
+				D5B037BA28F2252700851D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E082DA26FE315B000D059D /* Build configuration list for PBXProject "Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E082E426FE315B000D059D /* Debug */,
+				D5E082E526FE315B000D059D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E082F426FE339E000D059D /* Build configuration list for PBXNativeTarget "SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E082F526FE339E000D059D /* Debug */,
+				D5E082F626FE339E000D059D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E082D726FE315B000D059D /* Project object */;
+}
