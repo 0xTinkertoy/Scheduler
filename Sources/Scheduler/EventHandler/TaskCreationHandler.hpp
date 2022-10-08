@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskCreationHandler_hpp
-#define TaskCreationHandler_hpp
+#ifndef Scheduler_TaskCreationHandler_hpp
+#define Scheduler_TaskCreationHandler_hpp
 
 #include <Scheduler/Constraint/Prioritizable.hpp>
 #include <Scheduler/Misc/Traits.hpp>
@@ -175,4 +175,4 @@ namespace Scheduler::EventHandlers::TaskCreation::Cooperative
     };
 }
 
-#endif /* TaskCreationHandler_hpp */
+#endif /* Scheduler_TaskCreationHandler_hpp */

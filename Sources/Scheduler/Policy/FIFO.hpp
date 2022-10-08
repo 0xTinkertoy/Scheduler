@@ -7,8 +7,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef FIFO_hpp
-#define FIFO_hpp
+#ifndef Scheduler_FIFO_hpp
+#define Scheduler_FIFO_hpp
 
 #include <Scheduler/Policy/Policy.hpp>
 #include <LinkedList.hpp>
@@ -204,4 +204,4 @@ namespace Scheduler::Policies::FIFO::Virtual
     };
 }
 
-#endif /* FIFO_hpp */
+#endif /* Scheduler_FIFO_hpp */

@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef Quantizable_hpp
-#define Quantizable_hpp
+#ifndef Scheduler_Quantizable_hpp
+#define Scheduler_Quantizable_hpp
 
 #include <concepts>
 
@@ -35,4 +35,4 @@ namespace TaskConstraints
     };
 }
 
-#endif /* Quantizable_hpp */
+#endif /* Scheduler_Quantizable_hpp */

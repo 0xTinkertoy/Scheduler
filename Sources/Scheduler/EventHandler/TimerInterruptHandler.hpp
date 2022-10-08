@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TimerInterruptHandler_hpp
-#define TimerInterruptHandler_hpp
+#ifndef Scheduler_TimerInterruptHandler_hpp
+#define Scheduler_TimerInterruptHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -242,4 +242,4 @@ namespace Scheduler::EventHandlers::TimerInterrupt::Cooperative
     };
 }
 
-#endif /* TimerInterruptHandler_hpp */
+#endif /* Scheduler_TimerInterruptHandler_hpp */

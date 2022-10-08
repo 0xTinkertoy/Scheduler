@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef Policy_hpp
-#define Policy_hpp
+#ifndef Scheduler_Policy_hpp
+#define Scheduler_Policy_hpp
 
 #include <Scheduler/Constraint/Schedulable.hpp>
 
@@ -59,4 +59,4 @@ namespace Scheduler::Concepts
     };
 }
 
-#endif /* Policy_hpp */
+#endif /* Scheduler_Policy_hpp */

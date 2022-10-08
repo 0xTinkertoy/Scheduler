@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskYieldingHandler_hpp
-#define TaskYieldingHandler_hpp
+#ifndef Scheduler_TaskYieldingHandler_hpp
+#define Scheduler_TaskYieldingHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -45,4 +45,4 @@ namespace Scheduler::EventHandlers::TaskYielding::Common
     };
 }
 
-#endif /* TaskYieldingHandler_hpp */
+#endif /* Scheduler_TaskYieldingHandler_hpp */

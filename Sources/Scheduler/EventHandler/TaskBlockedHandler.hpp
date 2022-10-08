@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskBlockedHandler_hpp
-#define TaskBlockedHandler_hpp
+#ifndef Scheduler_TaskBlockedHandler_hpp
+#define Scheduler_TaskBlockedHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -74,4 +74,4 @@ namespace Scheduler::EventHandlers::TaskBlocked::Common
     };
 }
 
-#endif /* TaskBlockedHandler_hpp */
+#endif /* Scheduler_TaskBlockedHandler_hpp */

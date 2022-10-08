@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskSelfPriorityChangedHandler_hpp
-#define TaskSelfPriorityChangedHandler_hpp
+#ifndef Scheduler_TaskSelfPriorityChangedHandler_hpp
+#define Scheduler_TaskSelfPriorityChangedHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -43,4 +43,4 @@ namespace Scheduler::EventHandlers::TaskSelfPriorityChanged::Preemptive
     };
 }
 
-#endif /* TaskSelfPriorityChangedHandler_hpp */
+#endif /* Scheduler_TaskSelfPriorityChangedHandler_hpp */

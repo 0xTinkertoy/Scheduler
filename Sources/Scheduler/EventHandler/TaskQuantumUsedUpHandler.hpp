@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskQuantumUsedUpHandler_hpp
-#define TaskQuantumUsedUpHandler_hpp
+#ifndef Scheduler_TaskQuantumUsedUpHandler_hpp
+#define Scheduler_TaskQuantumUsedUpHandler_hpp
 
 #include <Scheduler/Constraint/Prioritizable.hpp>
 #include <Scheduler/Constraint/Quantizable.hpp>
@@ -131,4 +131,4 @@ namespace Scheduler::EventHandlers::TaskQuantumUsedUp::Preemptive
     };
 }
 
-#endif /* TaskQuantumUsedUpHandler_hpp */
+#endif /* Scheduler_TaskQuantumUsedUpHandler_hpp */

@@ -5,8 +5,8 @@
 //  Created by FireWolf on 2021-9-24.
 //
 
-#ifndef Utils_hpp
-#define Utils_hpp
+#ifndef Scheduler_Utils_hpp
+#define Scheduler_Utils_hpp
 
 #include <Scheduler/Constraint/Prioritizable.hpp>
 #include <utility>
@@ -63,4 +63,4 @@ namespace Scheduler::Utilities
     }
 }
 
-#endif /* Utils_hpp */
+#endif /* Scheduler_Utils_hpp */

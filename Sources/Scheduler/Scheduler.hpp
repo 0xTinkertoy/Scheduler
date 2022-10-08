@@ -5,8 +5,8 @@
 //  Created by FireWolf on 2021-9-24.
 //
 
-#ifndef Scheduler_hpp
-#define Scheduler_hpp
+#ifndef Scheduler_Scheduler_hpp
+#define Scheduler_Scheduler_hpp
 
 //
 // This is the umbrella header of the scheduler module
@@ -321,4 +321,4 @@ namespace Scheduler
     };
 }
 
-#endif /* Scheduler_hpp */
+#endif /* Scheduler_Scheduler_hpp */

@@ -6,8 +6,8 @@
 //  Copyright © 2020 FireWolf. All rights reserved.
 //
 
-#ifndef Schedulable_hpp
-#define Schedulable_hpp
+#ifndef Scheduler_Schedulable_hpp
+#define Scheduler_Schedulable_hpp
 
 #include <concepts>
 
@@ -30,4 +30,4 @@ namespace TaskConstraints
     concept Schedulable = std::derived_from<T, Scheduler::Schedulable>;
 }
 
-#endif /* Schedulable_hpp */
+#endif /* Scheduler_Schedulable_hpp */

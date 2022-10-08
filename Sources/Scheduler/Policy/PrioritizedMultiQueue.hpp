@@ -7,8 +7,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef PrioritizedMultiQueue_hpp
-#define PrioritizedMultiQueue_hpp
+#ifndef Scheduler_PrioritizedMultiQueue_hpp
+#define Scheduler_PrioritizedMultiQueue_hpp
 
 #include <Scheduler/Policy/Policy.hpp>
 #include <Scheduler/Policy/PolicyMaker.hpp>
@@ -616,4 +616,4 @@ namespace Scheduler::Policies::PrioritizedMultiQueue::Virtual
     };
 }
 
-#endif /* PrioritizedMultiQueue_hpp */
+#endif /* Scheduler_PrioritizedMultiQueue_hpp */

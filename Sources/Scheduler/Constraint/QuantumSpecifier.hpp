@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef QuantumSpecifier_hpp
-#define QuantumSpecifier_hpp
+#ifndef Scheduler_QuantumSpecifier_hpp
+#define Scheduler_QuantumSpecifier_hpp
 
 #include <concepts>
 
@@ -32,4 +32,4 @@ namespace Scheduler::Concepts
     };
 }
 
-#endif /* QuantumSpecifier_hpp */
+#endif /* Scheduler_QuantumSpecifier_hpp */

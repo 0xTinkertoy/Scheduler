@@ -7,8 +7,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef PolicyExtension_hpp
-#define PolicyExtension_hpp
+#ifndef Scheduler_PolicyExtension_hpp
+#define Scheduler_PolicyExtension_hpp
 
 #include <Scheduler/Constraint/Prioritizable.hpp>
 #include <Scheduler/Constraint/Quantizable.hpp>
@@ -182,4 +182,4 @@ namespace Scheduler::Policies::Extensions
     };
 }
 
-#endif /* PolicyExtension_hpp */
+#endif /* Scheduler_PolicyExtension_hpp */

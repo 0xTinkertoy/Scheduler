@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef Prioritizable_hpp
-#define Prioritizable_hpp
+#ifndef Scheduler_Prioritizable_hpp
+#define Scheduler_Prioritizable_hpp
 
 #include <Comparable.hpp>
 
@@ -179,4 +179,4 @@ struct AnyPrioritizableTask
     }
 };
 
-#endif /* Prioritizable_hpp */
+#endif /* Scheduler_Prioritizable_hpp */

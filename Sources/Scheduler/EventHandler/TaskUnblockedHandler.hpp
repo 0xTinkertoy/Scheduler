@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskUnblockedHandler_hpp
-#define TaskUnblockedHandler_hpp
+#ifndef Scheduler_TaskUnblockedHandler_hpp
+#define Scheduler_TaskUnblockedHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -248,4 +248,4 @@ namespace Scheduler::EventHandlers::TaskUnblocked::Cooperative
     };
 }
 
-#endif /* TaskUnblockedHandler_hpp */
+#endif /* Scheduler_TaskUnblockedHandler_hpp */

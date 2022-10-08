@@ -7,8 +7,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef PolicyMaker_hpp
-#define PolicyMaker_hpp
+#ifndef Scheduler_PolicyMaker_hpp
+#define Scheduler_PolicyMaker_hpp
 
 #include <Scheduler/Constraint/Prioritizable.hpp>
 #include <Scheduler/Policy/FIFO.hpp>
@@ -76,4 +76,4 @@ namespace Scheduler::PolicyMakers
     };
 }
 
-#endif /* PolicyMaker_hpp */
+#endif /* Scheduler_PolicyMaker_hpp */

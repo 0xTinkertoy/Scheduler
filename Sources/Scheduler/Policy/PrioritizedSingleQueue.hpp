@@ -7,8 +7,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef PrioritizedSingleQueue_hpp
-#define PrioritizedSingleQueue_hpp
+#ifndef Scheduler_PrioritizedSingleQueue_hpp
+#define Scheduler_PrioritizedSingleQueue_hpp
 
 #include <Scheduler/Policy/Policy.hpp>
 #include <Scheduler/Constraint/Prioritizable.hpp>
@@ -209,4 +209,4 @@ namespace Scheduler::Policies::PrioritizedSingleQueue::Virtual
     };
 }
 
-#endif /* PrioritizedSingleQueue_hpp */
+#endif /* Scheduler_PrioritizedSingleQueue_hpp */

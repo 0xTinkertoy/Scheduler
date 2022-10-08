@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskPriorityChangedHandler_hpp
-#define TaskPriorityChangedHandler_hpp
+#ifndef Scheduler_TaskPriorityChangedHandler_hpp
+#define Scheduler_TaskPriorityChangedHandler_hpp
 
 #include <Scheduler/Constraint/Prioritizable.hpp>
 #include <Scheduler/Misc/Traits.hpp>
@@ -68,4 +68,4 @@ namespace Scheduler::EventHandlers::TaskPriorityChanged::Preemptive
     };
 }
 
-#endif /* TaskPriorityChangedHandler_hpp */
+#endif /* Scheduler_TaskPriorityChangedHandler_hpp */

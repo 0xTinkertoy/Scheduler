@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskKilledHandler_hpp
-#define TaskKilledHandler_hpp
+#ifndef Scheduler_TaskKilledHandler_hpp
+#define Scheduler_TaskKilledHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -73,4 +73,4 @@ namespace Scheduler::EventHandlers::TaskKilled::Common
     };
 }
 
-#endif /* TaskKilledHandler_hpp */
+#endif /* Scheduler_TaskKilledHandler_hpp */

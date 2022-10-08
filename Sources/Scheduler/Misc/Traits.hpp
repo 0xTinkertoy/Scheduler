@@ -5,8 +5,8 @@
 //  Created by FireWolf on 2021-9-24.
 //
 
-#ifndef Traits_hpp
-#define Traits_hpp
+#ifndef Scheduler_Traits_hpp
+#define Scheduler_Traits_hpp
 
 /// A namespace where all scheduler-related traits are defined
 namespace Scheduler::Traits

@@ -6,8 +6,8 @@
 //  Copyright © 2021 FireWolf. All rights reserved.
 //
 
-#ifndef TaskTerminationHandler_hpp
-#define TaskTerminationHandler_hpp
+#ifndef Scheduler_TaskTerminationHandler_hpp
+#define Scheduler_TaskTerminationHandler_hpp
 
 #include <Scheduler/Misc/Traits.hpp>
 
@@ -74,4 +74,4 @@ namespace Scheduler::EventHandlers::TaskTermination::Common
     };
 }
 
-#endif /* TaskTerminationHandler_hpp */
+#endif /* Scheduler_TaskTerminationHandler_hpp */
